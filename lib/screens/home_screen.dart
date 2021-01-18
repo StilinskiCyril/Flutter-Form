@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_form/screens/main_drawer.dart';
-import 'package:flutter_form/widgets/bottom_navbar.dart';
+import 'package:mojapay/widgets/bottom_navbar.dart';
+import 'main_drawer.dart';
 
 class HomeScreen extends StatefulWidget {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_form/widgets/custom_text_form_field.dart';
+import 'package:mojapay/widgets/custom_text_form_field.dart';
 
 class ForgotPasswordScreen extends StatefulWidget {
   @override

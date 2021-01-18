@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_form/values/colors.dart';
+import 'package:mojapay/values/colors.dart';
 
 class CustomTextFormField  extends StatelessWidget {
   final String hintText;

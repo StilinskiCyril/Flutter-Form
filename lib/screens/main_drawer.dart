@@ -48,23 +48,23 @@ class MainDrawer extends StatelessWidget {
             },
           ),
           ListTile(
-            leading: Icon(Icons.favorite_border),
+            leading: Icon(Icons.monetization_on),
             title: Text(
-              'Wish list',
+              'C2B',
               style: TextStyle(fontSize: 18.0),
             ),
             onTap: () {
-              print('wishlist clicked');
+              print('c2b clicked');
             },
           ),
           ListTile(
-            leading: Icon(Icons.card_giftcard),
+            leading: Icon(Icons.monetization_on_outlined),
             title: Text(
-              'Orders',
+              'B2C',
               style: TextStyle(fontSize: 18.0),
             ),
             onTap: () {
-              print('profile clicked');
+              print('b2c clicked');
             },
           ),
           ListTile(

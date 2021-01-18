@@ -20,16 +20,12 @@ class _BottomNavBarState extends State<BottomNavBar> {
               label: 'Home',
               backgroundColor: Colors.indigo[600]),
           BottomNavigationBarItem(
-              icon: Icon(Icons.view_list),
-              label: 'Categories',
+              icon: Icon(Icons.monetization_on),
+              label: 'C2B',
               backgroundColor: Colors.indigo[600]),
           BottomNavigationBarItem(
-              icon: Icon(Icons.search),
-              label: 'Search',
-              backgroundColor: Colors.indigo[600]),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.favorite_border),
-              label: 'Wishlist',
+              icon: Icon(Icons.monetization_on_outlined),
+              label: 'B2C',
               backgroundColor: Colors.indigo[600]),
           BottomNavigationBarItem(
               icon: Icon(Icons.person),
@@ -45,10 +41,10 @@ class _BottomNavBarState extends State<BottomNavBar> {
               print('Home clicked');
               break;
             case 1:
-              print('search clicked');
+              print('c2b clicked');
               break;
             case 2:
-              print('cart clicked');
+              print('b2c clicked');
               break;
             case 3:
               print('profile clicked');
